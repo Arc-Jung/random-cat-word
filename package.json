@@ -1,0 +1,23 @@
+{
+  "name": "random-cat-word",
+  "version": "1.0.0",
+  "description": "random cat word",
+  "main": "main.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "keywords": [
+    "cat"
+  ],
+  "author": "Arc-Jung",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.3.3",
+    "typescript": "^5.1.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Arc-Jung/random-cat-word"
+  }
+}
