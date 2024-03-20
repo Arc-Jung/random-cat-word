@@ -2,10 +2,18 @@
   "name": "random-cat-word",
   "version": "1.0.2",
   "description": "random cat word",
-  "main": "src/main.ts",
+  "main": "dist/cjs/index.js",
+  "module": "dist/mjs/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/mjs/index.js",
+      "require": "./dist/cjs/index.js"
+    }
+  },
   "scripts": {
     "test": "jest --verbose",
-    "build": "tsc"
+    "build": "rm -fr dist/* && tsc -p tsconfig.json && tsc -p tsconfig-cjs.json && ./fixup.sh"
   },
   "keywords": [
     "cat",
