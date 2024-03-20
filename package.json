@@ -1,6 +1,6 @@
 {
   "name": "random-cat-word",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "random cat word",
   "main": "src/main.ts",
   "scripts": {
@@ -26,7 +26,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Arc-Jung/random-cat-word"
+    "url": "git+https://github.com/Arc-Jung/random-cat-word.git"
   },
   "dependencies": {}
 }
