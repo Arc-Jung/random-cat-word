@@ -2590,6 +2590,11 @@ pure-rand@^6.0.0:
   resolved "https://registry.yarnpkg.com/pure-rand/-/pure-rand-6.0.4.tgz#50b737f6a925468679bff00ad20eade53f37d5c7"
   integrity sha512-LA0Y9kxMYv47GIPJy6MI84fqTd2HmYZI83W/kM/SkKfDlajnZYfmXFTxkbY+xSBPkLJxltMa9hIkmdc29eguMA==
 
+random-cat-word@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/random-cat-word/-/random-cat-word-1.0.3.tgz#ef00097465491e8e3a14551a3f4ef182cd603eb2"
+  integrity sha512-efhovhrvyRY1DeVXUKNTecrhJ/7q4FXxd44Zf9b+OkdANWVXY1w+FVmOvd4y6DNDgnfx90aS1RFhfvJcSKGb6g==
+
 react-is@^18.0.0:
   version "18.2.0"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-18.2.0.tgz#199431eeaaa2e09f86427efbb4f1473edb47609b"

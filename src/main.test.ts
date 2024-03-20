@@ -1,4 +1,4 @@
-import {generate} from "./main";
+import {generate} from "random-cat-word/dist/cjs/main";
 
 test('generateTest', () => {
     const word = generate(1);
