@@ -5,7 +5,7 @@
 ## Usage
 
 ```typescript
-import {randomCatWord} from 'random-cat-word';
+import {generate} from "random-cat-word/dist/cjs/main";
 
 console.log(generate(10))
 ```
