@@ -8,4 +8,6 @@ test('generateTest', () => {
     const wordList = generate(10);
     expect(wordList.length).not.toBe(0);
     console.log(wordList);
+
+    console.log(generate(100));
 });
