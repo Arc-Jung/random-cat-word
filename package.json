@@ -1,6 +1,6 @@
 {
   "name": "random-cat-word",
-  "version": "1.0.16",
+  "version": "1.0.17",
   "description": "random cat word",
   "main": "dist/cjs/index.js",
   "module": "dist/mjs/index.js",
@@ -35,8 +35,5 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Arc-Jung/random-cat-word.git"
-  },
-  "dependencies": {
-    "random-cat-word": "1.0.6"
   }
 }
