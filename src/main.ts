@@ -46,7 +46,10 @@ export const catWordList = [
 export function generate(num:number) {
     let catWord = '';
     for (let i = 0; i < num; i++) {
-        catWord += catWordList[Math.floor(Math.random() * catWordList.length)] + ' ';
+        catWord += catWordList[Math.floor(Math.random() * catWordList.length)]
+        if (i < num - 1) {
+            catWord += ' ';
+        }
     }
     return catWord;
 }
