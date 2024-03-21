@@ -2,6 +2,19 @@
 
 ### 2024-03-20 Arc-Jung
 
+## Description
+
+- Randomly generates cat sounds.
+- 랜덤한 고양이 소리를 생성합니다.
+
+## Installation
+
+```shell
+npm install random-cat-word
+# or
+yarn add random-cat-word
+```
+
 ## Usage
 
 ```typescript
