@@ -32,9 +32,6 @@ console.log(generate(10, 'english')) // or 'en'
 console.log(generate(10, 'korean')) // or 'ko'
 ```
 
-```javascript
-```
-
 ```shell
 Kaaaack Yaaong Grwo Merr Yaaayong Yaaayong Nyaaaaa Nya Grwo Nyaayong
 Aong Trill Mewooong Yaaayong Nyaayong Nyaa Nyong Meow Nyaayong Nyong
