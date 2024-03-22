@@ -1,4 +1,4 @@
-export const catWordList = [
+export const catKoreanWordList = [
     '애옹',
     '냐옹',
     '야옹',
@@ -7,7 +7,7 @@ export const catWordList = [
     '웅엥',
     '아오옹',
     '아',
-    '오',
+    '오옹',
     '옹',
     '냥',
     '와',
@@ -51,8 +51,46 @@ export const catWordList = [
     '나옹',
 ]
 
+export const catEnglishWordList = [
+    'Meow',
+    'Nyaa',
+    'Yaa',
+    'Yaaong',
+    'Kaaaack',
+    'Haaaaaack',
+    'Nya',
+    'Nyaayong',
+    'Yaaayong',
+    'Nyaayong',
+    'Yayong',
+    'Aong',
+    'Mew',
+    'Meow',
+    'Purr',
+    'Merr',
+    'Hiss',
+    'Trill',
+    'Growl',
+    'Grwo',
+    'Mew',
+    'Mewooong',
+    'Meong',
+    'Aong',
+    'Nyong',
+    'Nyaaaaa',
+    'Nyaaaaaong',
+    'Nyaaaaan',
+]
+
 // Generate random cat word
-export function generate(num:number) {
+export function generate(num:number, language?:string) {
+    let catWordList = [];
+    if (language === 'korean') {
+        catWordList = catKoreanWordList;
+    } else {
+        catWordList = catEnglishWordList;
+    }
+
     let catWord = '';
     for (let i = 0; i < num; i++) {
         catWord += catWordList[Math.floor(Math.random() * catWordList.length)]

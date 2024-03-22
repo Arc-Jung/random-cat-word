@@ -11,9 +11,13 @@
 
 ## Installation
 
+- If you use NPM
 ```shell
 npm install random-cat-word
-# or
+```
+
+- If you use Yarn
+```shell
 yarn add random-cat-word
 ```
 
@@ -23,8 +27,12 @@ yarn add random-cat-word
 import {generate} from "random-cat-word/dist/cjs/main";
 
 console.log(generate(10))
+console.log(generate(10, 'english'))
+console.log(generate(10, 'korean'))
 ```
 
 ```shell
-냐웅 냐 아아오오오옹 아아오오오옹 야야아앙 우우우웅 와오 야야아앙 우우우웅 웅엥
+Kaaaack Yaaong Grwo Merr Yaaayong Yaaayong Nyaaaaa Nya Grwo Nyaayong
+Aong Trill Mewooong Yaaayong Nyaayong Nyaa Nyong Meow Nyaayong Nyong
+야아옹 오 와웅 우우우웅 캭캭캬야야약 냐웅 아우웅 오 웅엥 야야아앙
 ```
