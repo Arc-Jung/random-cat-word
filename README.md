@@ -6,8 +6,9 @@
 
 ## Description
 
-- Randomly generates cat sounds.
-- 랜덤한 고양이 소리를 생성합니다.
+- Randomly generates cat sounds. / 랜덤한 고양이 소리를 생성합니다.
+- If you would like to add cat words in other languages, please submit Pull Request. / 다른 언어의 고양이 단어를 추가하고 싶으면 풀 리퀘스트 해주세요.
+- Now, only English and Korean are supported. / 지금은 영어와 한국어만 지원합니다.
 
 ## Installation
 
@@ -34,5 +35,5 @@ console.log(generate(10, 'korean'))
 ```shell
 Kaaaack Yaaong Grwo Merr Yaaayong Yaaayong Nyaaaaa Nya Grwo Nyaayong
 Aong Trill Mewooong Yaaayong Nyaayong Nyaa Nyong Meow Nyaayong Nyong
-야아옹 오 와웅 우우우웅 캭캭캬야야약 냐웅 아우웅 오 웅엥 야야아앙
+야옹 옹 야 아옥 애오옹 먀 냐야야야야얌 야야아앙 냐야야야앙 아오오오
 ```
