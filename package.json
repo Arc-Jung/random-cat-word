@@ -1,6 +1,6 @@
 {
   "name": "random-cat-word",
-  "version": "1.1.8",
+  "version": "1.1.9",
   "description": "random cat word",
   "main": "dist/cjs/index.js",
   "module": "dist/mjs/index.js",
@@ -26,7 +26,17 @@
     "english",
     "korean",
     "meow",
-    "cute"
+    "npm",
+    "package",
+    "node",
+    "nodejs",
+    "testing",
+    "express",
+    "yarn",
+    "nextjs",
+    "nestjs",
+    "node-js",
+    "microservice"
   ],
   "author": "Arc-Jung",
   "license": "MIT",
