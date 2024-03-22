@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.generate = exports.catWordList = void 0;
-exports.catWordList = [
+exports.generate = exports.catEnglishWordList = exports.catKoreanWordList = void 0;
+exports.catKoreanWordList = [
     '애옹',
     '냐옹',
     '야옹',
@@ -10,7 +10,7 @@ exports.catWordList = [
     '웅엥',
     '아오옹',
     '아',
-    '오',
+    '오옹',
     '옹',
     '냥',
     '와',
@@ -42,13 +42,62 @@ exports.catWordList = [
     '캬아아아악',
     '캭캭캬야야약',
     '우우우웅',
-    '우우우웅'
+    '우우우웅',
+    '마옹',
+    '뫼옹',
+    '뫼옹',
+    '뫼아옹',
+    '미야옹',
+    '미양',
+    '냐',
+    '먀',
+    '나옹',
+];
+exports.catEnglishWordList = [
+    'Meow',
+    'Nyaa',
+    'Yaa',
+    'Yaaong',
+    'Kaaaack',
+    'Haaaaaack',
+    'Nya',
+    'Nyaayong',
+    'Yaaayong',
+    'Nyaayong',
+    'Yayong',
+    'Aong',
+    'Mew',
+    'Meow',
+    'Purr',
+    'Merr',
+    'Hiss',
+    'Trill',
+    'Growl',
+    'Grwo',
+    'Mew',
+    'Mewooong',
+    'Meong',
+    'Aong',
+    'Nyong',
+    'Nyaaaaa',
+    'Nyaaaaaong',
+    'Nyaaaaan',
 ];
 // Generate random cat word
-function generate(num) {
+function generate(num, language) {
+    let catWordList = [];
+    if (language === 'korean') {
+        catWordList = exports.catKoreanWordList;
+    }
+    else {
+        catWordList = exports.catEnglishWordList;
+    }
     let catWord = '';
     for (let i = 0; i < num; i++) {
-        catWord += exports.catWordList[Math.floor(Math.random() * exports.catWordList.length)] + ' ';
+        catWord += catWordList[Math.floor(Math.random() * catWordList.length)];
+        if (i < num - 1) {
+            catWord += ' ';
+        }
     }
     return catWord;
 }

@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-const main_1 = require("random-cat-word/dist/cjs/main");
+const main_1 = require("./main");
 test('generateTest', () => {
     const word = (0, main_1.generate)(1);
     expect(word.length).not.toBe(0);
@@ -8,4 +8,16 @@ test('generateTest', () => {
     const wordList = (0, main_1.generate)(10);
     expect(wordList.length).not.toBe(0);
     console.log(wordList);
+    const wordKorean = (0, main_1.generate)(1, 'korean');
+    expect(wordKorean.length).not.toBe(0);
+    console.log(wordKorean);
+    const wordKoreanList = (0, main_1.generate)(10, 'korean');
+    expect(wordKoreanList.length).not.toBe(0);
+    console.log(wordKoreanList);
+    const wordEnglish = (0, main_1.generate)(1, 'english');
+    expect(wordEnglish.length).not.toBe(0);
+    console.log(wordEnglish);
+    const wordEnglishList = (0, main_1.generate)(10, 'english');
+    expect(wordEnglishList.length).not.toBe(0);
+    console.log(wordEnglishList);
 });
