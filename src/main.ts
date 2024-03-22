@@ -92,7 +92,7 @@ export const catEnglishWordList = [
 // Generate random cat word
 export function generate(num:number, language?:string) {
     let catWordList = [];
-    if (language === 'korean') {
+    if (language === 'Korean' || language === 'korean' || language === 'ko' || language === 'kor' || language === 'kr') {
         catWordList = catKoreanWordList;
     } else {
         catWordList = catEnglishWordList;

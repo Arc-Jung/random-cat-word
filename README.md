@@ -27,9 +27,12 @@ yarn add random-cat-word
 ```typescript
 import {generate} from "random-cat-word/dist/cjs/main";
 
-console.log(generate(10))
-console.log(generate(10, 'english'))
-console.log(generate(10, 'korean'))
+console.log(generate(10)) // default language is 'english'
+console.log(generate(10, 'english')) // or 'en'
+console.log(generate(10, 'korean')) // or 'ko'
+```
+
+```javascript
 ```
 
 ```shell
