@@ -1,4 +1,4 @@
-![logo.jpeg](image%2Flogo.jpeg)
+![cat.jpeg](image%2Fcat.jpeg)
 
 # random-cat-word
 
