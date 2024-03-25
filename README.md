@@ -11,7 +11,7 @@
 
 - Randomly generates cat sounds. / 랜덤한 고양이 소리를 생성합니다.
 - Now, only English and Korean are supported. / 지금은 영어와 한국어만 지원합니다.
-- If you would like to add cat words in other languages, please submit Pull Request. / 다른 언어의 고양이 단어를 추가하고 싶으면 풀 리퀘스트 해주세요.
+- If you would like to add cat words in other languages, please submit Pull Request or create issue. / 다른 언어의 고양이 단어를 추가하고 싶으면 풀 리퀘스트 또는 이슈를 생성해주세요.
 
 ## Installation
 
