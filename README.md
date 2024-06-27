@@ -7,11 +7,11 @@
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fwww.npmjs.com%2Fpackage%2Frandom-cat-word&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits-NPM&edge_flat=false)](https://hits.seeyoufarm.com)
 
 ### 2024-03-20 Arc-Jung
-## Description
+## Description 🐈🐈🐈
 
-- Randomly generates cat sounds. / 랜덤한 고양이 소리를 생성합니다.
+- Randomly generates cat words. / 랜덤한 고양이 단어를 생성합니다.
 - Now, only English and Korean are supported. / 지금은 영어와 한국어만 지원합니다.
-- If you would like to add cat words in other languages, please submit Pull Request or create issue. / 다른 언어의 고양이 단어를 추가하고 싶으면 풀 리퀘스트 또는 이슈를 생성해주세요.
+- If you would like to add cat words in other languages, please submit Pull Request or create issue!!! / 다른 언어의 고양이 단어를 추가하고 싶으면 풀 리퀘스트 또는 이슈를 생성해주세요!!!
 
 ## Installation
 
@@ -25,7 +25,7 @@ npm install random-cat-word
 yarn add random-cat-word
 ```
 
-## Usage
+## Usage 🐈🐈🐈
 
 ```typescript
 import {generate} from "random-cat-word/dist/cjs/main";
