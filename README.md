@@ -44,3 +44,9 @@ Meow
 Aong Trill Mewooong Yaaayong Nyaayong Nyaa Nyong Meow Nyaayong Nyong
 야옹 옹 야 아옥 애오옹 먀 냐야야야야얌 야야아앙 냐야야야앙 아오오오
 ```
+
+## Publish 🐈🐈🐈
+```shell
+npm login
+npm publish
+```
