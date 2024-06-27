@@ -11,7 +11,7 @@
 
 - Randomly generates cat words. / 랜덤한 고양이 단어를 생성한다냥!
 - Now, only English and Korean are supported. / 지금은 영어와 한국어만 지원한다냥!
-- If you would like to add cat words in other languages, please submit Pull Request or create issue!!! / 다른 언어의 고양이 단어를 추가하고 싶으면 풀 리퀘스트 또는 이슈를 생성해달라냥! 전세계 고양이들에게 도움을 요청한다냥! 닝겐 세상을 고양이 단어로 도배시키자냥!
+- If you would like to add cat words in other languages, please submit Pull Request or create issue!!! / 다른 언어의 고양이 단어를 추가하고 싶으면 풀 리퀘스트 또는 이슈를 생성해달라냥! 전세계 고양이들에게 도움을 요청한다냥! 닝겐 세상을 고양이 소리로 도배시키자냥!
 
 ## Installation 🐈🐈🐈
 
