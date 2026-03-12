@@ -1,6 +1,13 @@
-# node modules
+# dependencies
 /node_modules
 
-# build files
+# build output
+/dist
 /build
 
+# system
+.DS_Store
+
+# env
+.env
+.env.*

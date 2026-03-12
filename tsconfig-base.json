@@ -19,6 +19,6 @@
     "traceResolution": false
   },
   "compileOnSave": false,
-  "exclude": ["node_modules", "dist"],
+  "exclude": ["node_modules", "dist", "src/**/*.test.ts"],
   "include": ["src"]
 }

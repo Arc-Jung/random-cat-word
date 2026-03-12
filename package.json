@@ -1,6 +1,6 @@
 {
   "name": "random-cat-word",
-  "version": "1.1.17",
+  "version": "1.1.18",
   "description": "random cat word",
   "main": "dist/cjs/index.js",
   "module": "dist/mjs/index.js",
